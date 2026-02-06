@@ -26,8 +26,8 @@ railway login
 railway init
 
 # Set environment variables
-railway variables set GITHUB_OWNER=edmondtam1
-railway variables set GITHUB_REPO=heartbeet
+railway variables set GITHUB_OWNER=YOUR_USERNAME
+railway variables set GITHUB_REPO=YOUR_REPO
 railway variables set GITHUB_TOKEN=ghp_your_token_here
 
 # Deploy
@@ -64,5 +64,5 @@ railway logs
 ```
 
 Verify runner is connected:
-- Go to: https://github.com/edmondtam1/heartbeet/settings/actions/runners
+- Go to: https://github.com/YOUR_USERNAME/YOUR_REPO/settings/actions/runners
 - Should see "railway-runner-xxx" listed as online

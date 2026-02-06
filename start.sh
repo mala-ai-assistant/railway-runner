@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-GITHUB_OWNER="${GITHUB_OWNER:-edmondtam1}"
+GITHUB_OWNER="${GITHUB_OWNER}"
 GITHUB_REPO="${GITHUB_REPO:-heartbeet}"
 
 if [ -z "$RUNNER_TOKEN" ]; then
