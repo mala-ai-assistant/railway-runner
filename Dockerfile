@@ -42,3 +42,4 @@ RUN chown -R runner:runner /home/runner
 USER runner
 
 ENTRYPOINT ["/home/runner/start.sh"]
+# v2 - auto-PAT support
